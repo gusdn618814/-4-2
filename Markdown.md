@@ -60,22 +60,4 @@
 
 > **결론**: 재귀적으로 구현된 피보나치 함수는 실용적인 입력 범위(예: $n>30$)에서는 비효율적이며, 동적 프로그래밍(DP)이나 메모이제이션을 사용해야 한다는 점을 실험적으로 증명하였다. 반면 GCD는 입력 크기에 거의 영향을 받지 않으며, 알고리즘 자체는 최적임을 확인하였다.
 
----
 
-### 📦 레포지토리 업로드 체크리스트 (이미 5 파일이 있다면 바로 실행)
-
-```bash
-# 1. 현재 디렉터리 확인
-ls -1
-# → fib.h  fib.c  main.c  Markdown.md  profiling_result.png 가 보여야 함
-
-# 2. Git 상태 확인
-git status
-# → 모두 “untracked” 혹은 “modified” 로 보이면 add 수행
-
-# 3. 파일 스테이징 & 커밋
-git add .
-git commit -m "Add assignment 2 source, report and profiling image"
-
-# 4. 원격 레포지터리에 푸시
-git push origin main   # (브랜치 명이 main 이 아니라면 해당 브랜치명 사용)
